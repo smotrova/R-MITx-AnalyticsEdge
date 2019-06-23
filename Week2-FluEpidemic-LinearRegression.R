@@ -1,5 +1,5 @@
 ## Read data from files
-fluTrain = read.csv('FluTrain.csv')
+fluTrain = read.csv('./DataFiles/FluTrain.csv')
 str(fluTrain)
 summary(fluTrain)
 

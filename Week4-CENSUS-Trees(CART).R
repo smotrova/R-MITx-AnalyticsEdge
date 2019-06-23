@@ -1,5 +1,5 @@
 # read in data
-census = read.csv("census.csv")
+census = read.csv("./DataFiles/census.csv")
 str(census)
 
 # split the data into test and training set

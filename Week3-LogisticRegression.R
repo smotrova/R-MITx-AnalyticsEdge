@@ -2,7 +2,7 @@
 # Week 3
 # Logistic Regression
 
-quality = read.csv("quality.csv")
+quality = read.csv("./DataFiles/quality.csv")
 str(quality)
 summary(quality)
 
@@ -30,7 +30,7 @@ auc
 #==========================================
 # Understanding the data
 
-songs = read.csv("songs.csv")
+songs = read.csv("./DataFiles/songs.csv")
 str(songs)
 
 table(songs$year)
@@ -85,7 +85,7 @@ max(table(SongsTest$Top10))/nrow(SongsTest)
 #==============================================
 # Predicting Parole Violators
 
-parole = read.csv("parole.csv")
+parole = read.csv("./DataFiles/parole.csv")
 str(parole)
 table(parole$violator)
 
@@ -160,7 +160,7 @@ as.numeric(performance(pred, "auc")@y.values)
 
 # Predicting loan repayment
 
-loans = read.csv("loans.csv")
+loans = read.csv("./DataFiles/loans.csv")
 str(loans)
 summary(loans)
 

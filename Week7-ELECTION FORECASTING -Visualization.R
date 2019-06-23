@@ -14,7 +14,7 @@ table(statesMap$group)
 ggplot(statesMap, aes(x = long, y = lat, group = group)) + geom_polygon(fill = "white", color = "black")
 
 # read the data
-polling = read.csv("PollingImputed.csv")
+polling = read.csv("./DataFiles/PollingImputed.csv")
 str(polling)
 
 # devide into Train and Test sets

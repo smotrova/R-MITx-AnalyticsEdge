@@ -1,4 +1,4 @@
-CPS <- CPSData
+CPS <- read.csv("./DataFiles/CPSData.csv")
 
 str(CPS)
 summary(CPS)

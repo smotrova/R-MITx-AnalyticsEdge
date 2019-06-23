@@ -1,8 +1,8 @@
-IBM = IBMStock
-GE = GEStock
-ProcterGamble = ProcterGambleStock
-CocaCola = CocaColaStock
-Boeing = BoeingStock
+IBM = read.csv("./DataFiles/IBMStock.csv")
+GE = read.csv("./DataFiles/GEStock.csv")
+ProcterGamble = ("./DataFiles/ProcterGambleStock.csv")
+CocaCola = ("./DataFiles/CocaColaStock.csv")
+Boeing = ("./DataFiles/BoeingStock.csv")
 
 IBM$Date = as.Date(IBM$Date, "%m/%d/%y")
 

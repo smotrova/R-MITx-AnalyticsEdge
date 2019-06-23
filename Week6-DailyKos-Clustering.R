@@ -1,5 +1,5 @@
 # Read data
-dailykos <- read.csv("dailykos.csv", header = FALSE)
+dailykos <- read.csv("./DataFiles/dailykos.csv", header = FALSE)
 str(dailykos)
 
 # Compute distanses
@@ -43,7 +43,7 @@ tail(sort(colMeans(Cluster7)))
 
 # k-means clustering
 # Read data
-dailykos <- read.csv("dailykos.csv", header = FALSE)
+dailykos <- read.csv("./DataFiles/dailykos.csv", header = FALSE)
 str(dailykos)
 
 # Turn data into matrix and than into vector

@@ -1,7 +1,7 @@
 # VISUALIZING TEXT DATA USING WORD CLOUDS
 
 # load data
-tweets = read.csv("tweets.csv", stringsAsFactors = FALSE)
+tweets = read.csv("./DataFiles/tweets.csv", stringsAsFactors = FALSE)
 str(tweets)
 
 # Create a corpus using the Tweet variable

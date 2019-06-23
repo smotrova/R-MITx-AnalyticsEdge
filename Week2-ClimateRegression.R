@@ -1,4 +1,4 @@
-climate = read.csv('climate_change.csv')
+climate = read.csv('./DataFiles/climate_change.csv')
 str(climate)
 
 climate_train = subset(climate, Year <= 2006)

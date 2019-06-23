@@ -1,5 +1,5 @@
 # Read in Data
-gerber = read.csv("gerber.csv")
+gerber = read.csv("./DataFiles/gerber.csv")
 str(gerber)
 
 # familiar with data

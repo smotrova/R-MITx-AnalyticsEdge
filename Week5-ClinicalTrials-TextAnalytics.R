@@ -1,5 +1,5 @@
 # read in data
-trials = read.csv("clinical_trial.csv", stringsAsFactors = F)
+trials = read.csv("./DataFiles/clinical_trial.csv", stringsAsFactors = F)
 str(trials)
 summary(trials)
 

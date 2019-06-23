@@ -1,6 +1,6 @@
 ## Read data from files
-pisaTest = read.csv('pisa2009test.csv')
-pisaTrain = read.csv('pisa2009train.csv')
+pisaTest = read.csv('./DataFiles/pisa2009test.csv')
+pisaTrain = read.csv('./DataFiles/pisa2009train.csv')
 str(pisaTrain)
 
 ## the average reading test score of males and females

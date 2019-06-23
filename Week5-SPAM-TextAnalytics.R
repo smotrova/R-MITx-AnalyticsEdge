@@ -1,5 +1,5 @@
 # Loading data
-emails = read.csv("emails.csv", stringsAsFactors = F)
+emails = read.csv("./DataFiles/emails.csv", stringsAsFactors = F)
 str(emails)
 
 # How many emails are spam

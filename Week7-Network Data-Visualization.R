@@ -1,6 +1,6 @@
 # load data
-edges = read.csv("edges.csv")
-users = read.csv("users.csv")
+edges = read.csv("./DataFiles/edges.csv")
+users = read.csv("./DataFiles/users.csv")
 
 # investigate data sets
 str(users)

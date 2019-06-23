@@ -1,6 +1,6 @@
 #  cluster-then-predict methodology
 #  read the data
-Stocks <- read.csv("D:/LENA/edX/MITx-AnalyticEdge-15.071x/Assignments/DataFiles/StocksCluster.csv")
+Stocks <- read.csv("./DataFiles//StocksCluster.csv")
 
 #  explore data
 str(Stocks)

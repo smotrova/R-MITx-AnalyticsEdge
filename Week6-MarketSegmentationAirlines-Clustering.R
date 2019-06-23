@@ -1,5 +1,5 @@
 # import data set
-Airlines <- read.csv("D:/LENA/edX/MITx-AnalyticEdge-15.071x/Assignments/DataFiles/AirlinesCluster.csv")
+Airlines <- read.csv("./DataFiles//AirlinesCluster.csv")
 str(Airlines)
 summary(Airlines)
 

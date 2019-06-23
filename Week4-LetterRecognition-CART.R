@@ -1,5 +1,5 @@
 # read in data
-letters = read.csv("letters_ABPR.csv")
+letters = read.csv("./DataFiles/letters_ABPR.csv")
 str(letters)
 
 # create a new variable isB in the dataframe, 

@@ -1,4 +1,5 @@
-mvt <- mvtWeek1
+mvt <- read.csv("./DataFiles/mvtWeek1.csv")
+
 rm(mvtWeek1)
 
 str(mvt)

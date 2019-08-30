@@ -9,7 +9,7 @@ Through inspiring examples and stories, discover the power of data and use analy
 
 * Week 2. Linear Regression.
 
-* Week 3. Linear Regression.
+* Week 3. Logistic Regression.
 
 * Week 4. Trees.
 
